@@ -1,0 +1,41 @@
+# ================= Vivado / ISE 生成物 =================
+*.jou
+*.log
+*.str
+*.pb
+.Xil/
+**/.Xil/
+reaction_game/reaction_game.cache/
+reaction_game/reaction_game.hw/
+reaction_game/reaction_game.sim/
+reaction_game/reaction_game.ip_user_files/
+reaction_game/*.runs/
+**/hw_handoff/
+*.dcp
+*.ltx
+*.vcd
+
+# ================= SDK / Vitis 工作空间 =================
+sdk_ws/.metadata/
+sdk_ws/.sdk/
+sdk_ws/webtalk/
+sdk_ws/RemoteSystemsTempFiles/
+sdk_ws/reaction_app_bsp/
+sdk_ws/design_1_wrapper_hw_platform_1/
+sdk_ws/**/Debug/*.o
+sdk_ws/**/Debug/*.d
+sdk_ws/**/*.map
+
+# ================= 临时/调试文件（保留正式脚本） =================
+/*.tcl
+!/build_reaction_game.tcl
+!/start4.tcl
+*.txt
+readcom*.ps1
+report/_t.md
+*.tmp
+*.bak
+*.swp
+*~
+Thumbs.db
+desktop.ini

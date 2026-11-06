@@ -1,0 +1,43 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.0.19  2019-03-26 bk=1.5019 VDI=41 GEI=35 GUI=JA:9.0 non-TLS
+#  -string -flagsOSRD
+preplace port DDR -pg 1 -lvl 7 -x 1860 -y 350 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -lvl 7 -x 1860 -y 370 -defaultsOSRD
+preplace portBus btn_in -pg 1 -lvl 0 -x 0 -y 290 -defaultsOSRD
+preplace portBus led_out -pg 1 -lvl 7 -x 1860 -y 120 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 1 -x 230 -y 390 -defaultsOSRD
+preplace inst axi_gpio_ctrl -pg 1 -lvl 3 -x 930 -y 150 -defaultsOSRD
+preplace inst slice_start -pg 1 -lvl 4 -x 1210 -y 190 -defaultsOSRD
+preplace inst slice_stim -pg 1 -lvl 4 -x 1210 -y 290 -defaultsOSRD
+preplace inst concat_status -pg 1 -lvl 6 -x 1750 -y 450 -defaultsOSRD
+preplace inst axi_gpio_time -pg 1 -lvl 3 -x 930 -y 450 -defaultsOSRD
+preplace inst reaction_timer_0 -pg 1 -lvl 5 -x 1480 -y 170 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -x 610 -y 140 -defaultsOSRD
+preplace inst rst_ps7_0_100M -pg 1 -lvl 1 -x 230 -y 170 -defaultsOSRD
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 5 30 70 440 300 780 50 NJ 50 1330J
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 2 20 60 430
+preplace netloc rst_ps7_0_100M_peripheral_aresetn 1 1 4 460 280 790 60 NJ 60 1310J
+preplace netloc axi_gpio_ctrl_gpio_io_o 1 3 1 1070 140n
+preplace netloc slice_start_Dout 1 4 1 NJ 190
+preplace netloc slice_stim_Dout 1 4 1 1320J 210n
+preplace netloc reaction_timer_0_armed 1 5 1 1640 200n
+preplace netloc reaction_timer_0_btn_pressed 1 5 1 1650 180n
+preplace netloc reaction_timer_0_btn_index 1 5 1 1660 160n
+preplace netloc concat_status_dout 1 3 4 1080 40 NJ 40 NJ 40 1840
+preplace netloc reaction_timer_0_timer_value 1 3 3 N 460 NJ 460 1630
+preplace netloc btn_in_1 1 0 5 NJ 290 NJ 290 760J 30 NJ 30 1320J
+preplace netloc reaction_timer_0_led_out 1 5 2 NJ 120 NJ
+preplace netloc processing_system7_0_DDR 1 1 6 NJ 350 NJ 350 NJ 350 NJ 350 NJ 350 NJ
+preplace netloc processing_system7_0_FIXED_IO 1 1 6 NJ 370 NJ 370 NJ 370 NJ 370 NJ 370 NJ
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 1 450 60n
+preplace netloc ps7_0_axi_periph_M00_AXI 1 2 1 N 130
+preplace netloc ps7_0_axi_periph_M01_AXI 1 2 1 770 150n
+levelinfo -pg 1 0 230 610 930 1210 1480 1750 1860
+pagesize -pg 1 -db -bbox -sgen -120 0 1990 530
+"
+}
+{
+   "da_axi4_cnt":"2",
+   "da_ps7_cnt":"1"
+}
